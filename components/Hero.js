@@ -1,21 +1,22 @@
 import { AiFillLinkedin, AiOutlineGithub, AiTwotoneMail } from "react-icons/ai";
 import Image from "next/image";
 import webdev from "../public/web-dev-robertaf.png";
+import TypingAnimation from "./TypingAnimation"; 
 
 function Hero() {
   return (
     <div className="text-center p-10">
-      <h2 className=" text-2xl py-2 font-medium dark:text-teal-400">
+      <h2 className="text-2xl py-2 font-medium dark:text-teal-400">
         Hi, I am Roberta Freitas
       </h2>
-      <h3 className=" text-5xl py-2 dark:text-white">
-        I am a <span className="text-teal-500"> Web Developer </span>
-      </h3>
-      <p className=" text-md leading-8 text-gray-800 dark:text-gray-200">
+
+      <TypingAnimation />
+
+      <p className="text-md leading-8 text-gray-800 dark:text-gray-200">
         Welcome to my Portfolio.
       </p>
 
-      <div className=" text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+      <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
         <a
           href="https://www.linkedin.com/in/roberta-efreitas/"
           target="_blank"
