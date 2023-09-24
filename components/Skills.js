@@ -19,7 +19,7 @@ import github from "../public/github.png";
 
 const Skills = () => {
   return (
-    <section>
+    <section id="skills">
       <div className="mt-20 text-3xl py-1 dark:text-white">
         <h2 className="text-3xl py-1 mt-10 dark:text-white">Skills</h2>
       </div>

@@ -4,7 +4,7 @@ import airbnbclone from "../public/Airbnb-Clone.gif";
 
 function Projects() {
   return (
-      <section>
+      <section id="projects">
         <div>
           <h2 className="mt-20 text-3xl py-1 dark:text-white">Projects</h2>
         </div>

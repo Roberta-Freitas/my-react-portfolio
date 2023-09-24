@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 function Home() {
   const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   return (
     <div className={darkMode ? "dark" : ""}>
