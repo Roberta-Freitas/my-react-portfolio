@@ -25,6 +25,9 @@ function Projects() {
               <li className="text-gray-800 py-1">Geocoder</li>
               <li className="text-gray-800 py-1">Mapbox</li>
             </ul>
+            <a href="http://www.pamba.me/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
+              Learn More
+            </a>
         </div>
 
       {/* Second Card */}
@@ -40,6 +43,9 @@ function Projects() {
               <li className="text-gray-800 py-1">Feature 2</li>
               <li className="text-gray-800 py-1">Feature 3</li>
             </ul>
+            <a href="https://airbnb-roberta-freitas.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
+              Learn More
+            </a>
         </div>
 
         {/* Third Card */}
@@ -55,12 +61,15 @@ function Projects() {
               <li className="text-gray-800 py-1">Geocoder</li>
               <li className="text-gray-800 py-1">Mapbox</li>
             </ul>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
+              Learn More
+            </a>
         </div>
 
          {/* Forth Card */}
         <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-100">
           <Image src={airbnbclone} alt="Airbnb Clone Project" />
-          <h3 className=" text-lg font-medium pt-8 pb-2">Airbnb Clone</h3>
+          <h3 className=" text-lg font-medium pt-8 pb-2">Shopify Store</h3>
           <p className="py-2">
           {/* I have to write the description */}
           </p>
@@ -70,12 +79,15 @@ function Projects() {
               <li className="text-gray-800 py-1">Geocoder</li>
               <li className="text-gray-800 py-1">Mapbox</li>
             </ul>
+            <a href="https://primadonna-extensoes.pt/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
+              Learn More
+            </a>
          </div>
 
          {/* Fifth Card */}
          <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
           <Image src={airbnbclone} alt="Airbnb Clone Project" />
-          <h3 className=" text-lg font-medium pt-8 pb-2">Airbnb Clone</h3>
+          <h3 className=" text-lg font-medium pt-8 pb-2">Shopify Store</h3>
           <p className="py-2">
           {/* I have to write the description */}
           </p>
@@ -85,6 +97,9 @@ function Projects() {
               <li className="text-gray-800 py-1">Geocoder</li>
               <li className="text-gray-800 py-1">Mapbox</li>
             </ul>
+            <a href="https://alphababiesstore.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
+              Learn More
+            </a>
           </div>
       </div>
       </section>

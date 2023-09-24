@@ -1,7 +1,7 @@
 import { AiFillLinkedin, AiOutlineGithub, AiTwotoneMail } from "react-icons/ai";
 import Image from "next/image";
 import webdev from "../public/web-dev-robertaf.png";
-import TypingAnimation from "./TypingAnimation"; 
+import TypingAnimation from "./TypingAnimation";
 
 function Hero() {
   return (
@@ -16,7 +16,7 @@ function Hero() {
         Welcome to my Portfolio.
       </p>
 
-      <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+      <div className="text-5xl flex justify-center gap-16 py-5 text-gray-600 dark:text-gray-400">
         <a
           href="https://www.linkedin.com/in/roberta-efreitas/"
           target="_blank"
