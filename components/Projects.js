@@ -6,7 +6,7 @@ function Projects() {
   return (
       <section id="projects">
         <div>
-          <h2 className="mt-20 text-3xl py-1 dark:text-white">Projects</h2>
+          <h2 className="mt-20 text-3xl py-1 inline border-b-4 border-teal-500 dark:text-white">Projects</h2>
         </div>
       {/* Card section starts here */}
       <div>
@@ -25,8 +25,11 @@ function Projects() {
               <li className="text-gray-800 py-1">Geocoder</li>
               <li className="text-gray-800 py-1">Mapbox</li>
             </ul>
+            <a href="http://www.pamba.me/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 mr-4 inline-block hover:bg-teal-600 transition-colors">
+              Demo
+            </a>
             <a href="http://www.pamba.me/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
-              Learn More
+              Code
             </a>
         </div>
 
@@ -43,8 +46,11 @@ function Projects() {
               <li className="text-gray-800 py-1">Feature 2</li>
               <li className="text-gray-800 py-1">Feature 3</li>
             </ul>
+            <a href="https://airbnb-roberta-freitas.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 mr-4 inline-block hover:bg-teal-600 transition-colors">
+              Demo
+            </a>
             <a href="https://airbnb-roberta-freitas.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
-              Learn More
+              Code
             </a>
         </div>
 
@@ -61,8 +67,11 @@ function Projects() {
               <li className="text-gray-800 py-1">Geocoder</li>
               <li className="text-gray-800 py-1">Mapbox</li>
             </ul>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 mr-4 inline-block hover:bg-teal-600 transition-colors">
+              Demo
+            </a>
             <a href="#" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
-              Learn More
+              Code
             </a>
         </div>
 
@@ -80,7 +89,7 @@ function Projects() {
               <li className="text-gray-800 py-1">Mapbox</li>
             </ul>
             <a href="https://primadonna-extensoes.pt/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
-              Learn More
+              Demo
             </a>
          </div>
 
@@ -98,7 +107,7 @@ function Projects() {
               <li className="text-gray-800 py-1">Mapbox</li>
             </ul>
             <a href="https://alphababiesstore.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
-              Learn More
+              Demo
             </a>
           </div>
       </div>

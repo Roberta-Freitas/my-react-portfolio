@@ -5,7 +5,7 @@ import TypingAnimation from "./TypingAnimation";
 
 function Hero() {
   return (
-    <div className="text-center p-10">
+    <div id="home" className="text-center p-10">
       <h2 className="text-2xl py-2 font-medium dark:text-teal-400">
         Hi, I am Roberta Freitas
       </h2>

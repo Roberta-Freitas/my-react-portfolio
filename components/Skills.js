@@ -21,7 +21,7 @@ const Skills = () => {
   return (
     <section id="skills">
       <div className="mt-20 text-3xl py-1 dark:text-white">
-        <h2 className="text-3xl py-1 mt-10 dark:text-white">Skills</h2>
+        <h2 className="text-3xl py-1 mt-10 inline border-b-4 border-teal-500 dark:text-white">Skills</h2>
       </div>
       <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-100">
         <div className="overflow-hidden">

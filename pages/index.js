@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import AboutMe from "../components/AboutMe";
+import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
 function Home() {
@@ -24,6 +25,7 @@ function Home() {
         <Projects />
         <Skills />
         <AboutMe />
+        <Contact />
         <Footer currentYear={currentYear} />
       </main>
     </div>

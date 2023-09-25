@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
-// import Projects from "./Projects";
-// import Skills from "./Skills";
-// import AboutMe from "./AboutMe";
 
 function Navbar({ darkMode, setDarkMode }) {
   const [menuVisible, setMenuVisible] = useState(false);
@@ -47,6 +44,7 @@ function Navbar({ darkMode, setDarkMode }) {
                   Home
                 </ScrollLink>
               </li>
+
               <li>
                 <ScrollLink
                   className="block mb-2"
@@ -58,6 +56,7 @@ function Navbar({ darkMode, setDarkMode }) {
                   Projects
                 </ScrollLink>
               </li>
+
               <li>
                 <ScrollLink
                   className="block mb-2"
@@ -69,6 +68,7 @@ function Navbar({ darkMode, setDarkMode }) {
                   Skills
                 </ScrollLink>
               </li>
+
               <li>
                 <ScrollLink
                   className="block mb-2"
@@ -80,6 +80,7 @@ function Navbar({ darkMode, setDarkMode }) {
                   About
                 </ScrollLink>
               </li>
+              
               <li>
                 <ScrollLink
                   className="block"
