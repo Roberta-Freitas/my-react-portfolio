@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+// import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsFillSunFill } from "react-icons/bs";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 function Navbar({ darkMode, setDarkMode }) {
@@ -11,7 +12,7 @@ function Navbar({ darkMode, setDarkMode }) {
 
   const scrollToTop = () => {
     scroll.scrollToTop();
-    toggleMenu(); // Close the menu after clicking the logo
+    toggleMenu(); // Close the menu after clicking the hamburger
   };
 
   return (
@@ -19,8 +20,10 @@ function Navbar({ darkMode, setDarkMode }) {
       <h1 className="text-xl font-burtons cursor-pointer" onClick={scrollToTop}>
         developedbyroberta
       </h1>
+
       <div className="flex items-center">
-        <BsFillMoonStarsFill
+      
+        <BsFillSunFill
           onClick={() => setDarkMode(!darkMode)}
           className="cursor-pointer text-2xl"
         />
@@ -32,7 +35,7 @@ function Navbar({ darkMode, setDarkMode }) {
             &#8801; {/* Hamburger icon */}
           </div>
           {menuVisible && (
-            <ul className="absolute top-10 right-0 mt-2 p-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+            <ul className="absolute top-10 text-2xl right-0 mt-2 p-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
               <li>
                 <ScrollLink
                   className="block mb-2"
@@ -80,7 +83,7 @@ function Navbar({ darkMode, setDarkMode }) {
                   About
                 </ScrollLink>
               </li>
-              
+
               <li>
                 <ScrollLink
                   className="block"
