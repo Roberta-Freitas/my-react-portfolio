@@ -71,11 +71,11 @@ function Projects() {
           </p>
           <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
             <ul className="list-disc list-inside ml-0">
-              <li className="text-gray-800 py-1">Feature 1</li>
-              <li className="text-gray-800 py-1">Feature 2</li>
-              <li className="text-gray-800 py-1">Feature 3</li>
+              <li className="text-gray-800 py-1">Built with React on the frontend and Motoko on the backend. Users can create, read, and delete notes. </li>
+              <li className="text-gray-800 py-1">This Dapp ensures secure and decentralized storage of notes, utilizing Motoko and the Internet Computer (IC) database.</li>
+              <li className="text-gray-800 py-1">Manages state using React hooks and communicates with the Motoko backend canister via the DFINITY Internet Computer platform. This architecture streamlines development and deployment.</li>
             </ul>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 mr-4 inline-block hover:bg-teal-600 transition-colors">
+            <a href="https://dpb4u-2aaaa-aaaal-ac33a-cai.icp0.io/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 mr-4 inline-block hover:bg-teal-600 transition-colors">
               Demo
             </a>
             <a href="https://github.com/Roberta-Freitas/dkeeper" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
@@ -107,14 +107,14 @@ function Projects() {
          {/* Fifth Card */}
          <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
             <Image src={primadonnapt} alt="Prima Donna Extensões PT" className="rounded-xl mr-4" />
-          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Shopify Stores</h2>
+          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Shopify Store</h2>
           <p className="py-2">
-            These are some Shopify stores I built.
+            This is a Shopify stores I designed for a Portuguese Hair extensions brand.
           </p>
           <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
             <ul className="list-disc list-inside ml-0">
-              <li className="text-gray-800  py-1">Customized Shopify themes to create unique and visually appealing online stores that align with the client&apos;s brand;</li>
-              <li className="text-gray-800  py-1">Integrated third-party apps and tools to extend Shopify&apos;s capabilities, such as payment gateways and marketing automation tools;</li>
+              <li className="text-gray-800  py-1">Customized Shopify themes to create unique and visually appealing online stores that align with the client&apos;s brand.</li>
+              <li className="text-gray-800  py-1">Integrated third-party apps and tools to extend Shopify&apos;s capabilities, such as payment gateways and marketing automation tools.</li>
               <li className="text-gray-800 py-1">Created Shopify product catalogs, including product descriptions, images, and pricing information.</li>
             </ul>
             <a href="https://primadonna-extensoes.pt/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 mr-4 inline-block hover:bg-teal-600 transition-colors">
@@ -125,14 +125,14 @@ function Projects() {
          <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
           {/* <Image src={alphababies} alt="Prima Donna Extensões PT" className="rounded-xl" /> */}
           <Image src={alphababies} alt="Alpha Babies Store" className="rounded-xl" />
-          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Shopify Stores</h2>
+          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Shopify Store</h2>
           <p className="py-2">
-            These are some Shopify stores I built.
+            This a Shopify stores I designed for a Baby Products store.
           </p>
           <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
             <ul className="list-disc list-inside ml-0">
-              <li className="text-gray-800  py-1">Customized Shopify themes to create unique and visually appealing online stores that align with the client&apos;s brand;</li>
-              <li className="text-gray-800  py-1">Integrated third-party apps and tools to extend Shopify&apos;s capabilities, such as payment gateways and marketing automation tools;</li>
+              <li className="text-gray-800  py-1">Customized Shopify themes to create unique and visually appealing online stores that align with the client&apos;s brand.</li>
+              <li className="text-gray-800  py-1">Integrated third-party apps and tools to extend Shopify&apos;s capabilities, such as payment gateways and marketing automation tools.</li>
               <li className="text-gray-800 py-1">Created Shopify product catalogs, including product descriptions, images, and pricing information.</li>
             </ul>
             <a href="https://alphababiesstore.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
