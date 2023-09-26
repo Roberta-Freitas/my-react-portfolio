@@ -17,12 +17,12 @@ function Navbar({ darkMode, setDarkMode }) {
 
   return (
     <nav className="py-10 mb-12 flex justify-between dark:text-white">
-      <h1 className="text-xl font-burtons cursor-pointer" onClick={scrollToTop}>
+      <h1 className="font-burtons cursor-pointer" onClick={scrollToTop}>
         developedbyroberta
       </h1>
 
       <div className="flex items-center">
-      
+
         <BsFillSunFill
           onClick={() => setDarkMode(!darkMode)}
           className="cursor-pointer text-2xl"
