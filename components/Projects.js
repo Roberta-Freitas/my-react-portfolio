@@ -3,6 +3,7 @@ import pambagif from "../public/PambaW.gif";
 import airbnbclone from "../public/AirbnbCloneNew.gif";
 import primadonnapt from "../public/PrimaDonnaNew.gif";
 import alphababies from "../public/AlphaBabiesS.gif";
+import dkeeper from "../public/Dkeeper.gif";
 
 function Projects() {
   return (
@@ -17,9 +18,9 @@ function Projects() {
           <Image src={pambagif} alt="Pamba Project" className="rounded-xl" />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Pamba - Your home Away from Home</h2>
           <p className="py-2">
-            As the final project of the Web Development Bootcamp,
-            3 team mates and I built Pamba, a Rails web-app that helps future
-            Le Wagon students to find accommodation based on previous students reviews.
+            As the final project of the Web Development Bootcamp, 3 team mates and I built Pamba,</p>
+          <p className="py-2">
+            a Rails web-app that helps future Le Wagon students to find accommodation based on previous students reviews.
           </p>
           <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
             <ul className="list-disc list-inside ml-0">
@@ -46,13 +47,16 @@ function Projects() {
           <Image src={airbnbclone} alt="Airbnb Clone Project" className="rounded-xl" />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Airbnb Clone</h2>
           <p className="py-2">
-            3 team mates and I designed, implemented and shipped to production a clone of AirBnb.
+           During the Le Wagon Bootcamp, our team of four developers designed and built this dynamic Rails web application,
+          </p>
+          <p className="py-2">
+            where users can rent accommodations or list their own properties. The platform also allows users to leave a review after their stay.
           </p>
           <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
             <ul className="list-disc list-inside ml-0">
-              <li className="text-gray-800 py-1">Feature 1</li>
-              <li className="text-gray-800 py-1">Feature 2</li>
-              <li className="text-gray-800 py-1">Feature 3</li>
+              <li className="text-gray-800 py-1">Ruby-Powered Backend: The app&apos;s server-side logic is predominantly built using Ruby. </li>
+              <li className="text-gray-800 py-1">Heroku Deployment: Hosted and deployed using Heroku.</li>
+              <li className="text-gray-800 py-1">User-friendly interface built using HTML, SCSS, and JavaScript.</li>
             </ul>
             <a href="https://airbnb-roberta-freitas.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 mr-4 inline-block hover:bg-teal-600 transition-colors">
               Demo
@@ -64,10 +68,10 @@ function Projects() {
 
         {/* Third Card */}
         <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-100">
-          <Image src={airbnbclone} alt="Dkeeper" className="rounded-xl" />
+          <Image src={dkeeper} alt="Dkeeper" className="rounded-xl" />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">DKeeper</h2>
           <p className="py-2">
-           A feature-rich blockchain web3 application built using DFINITY&apos;s Internet Computer, Motoko, and React. With Dkeeper, you can manage your notes through CRUD operations.
+           A blockchain web3 application built using DFINITY&apos;s Internet Computer, Motoko, and React. With Dkeeper, you can manage your notes through CRUD operations.
           </p>
           <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
             <ul className="list-disc list-inside ml-0">

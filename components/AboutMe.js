@@ -13,7 +13,7 @@ function AboutMe() {
       </p>
       <p className=" text-md py-2 leading-8">
         In December 2022, I quit my job and decided to dive deeper in the world of web development. In January 2023, I joined the very intensive <span className="text-teal-500">  360 hours Le Wagon Bootcamp</span> in Amsterdam.
-        The bootcamp grad me with a strong foundation. We&apos;ve built full-stack web applications from scratch and collaborated on group projects that challenged and expanded my knowledge.
+        The bootcamp grad me with a strong foundation. I&apos;ve built full-stack web applications from scratch and collaborated on group projects that challenged and expanded my knowledge.
       </p>
       <p className=" text-md py-2 leading-8">
         After completing Le Wagon bootcamp, I immediately embarked on another exciting learning journey by enrolling in <span className="text-teal-500"> The App Brewery Full Stack Web Development Online Bootcamp</span>.
