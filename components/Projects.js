@@ -4,6 +4,7 @@ import airbnbclone from "../public/AirbnbCloneNew.gif";
 import primadonnapt from "../public/PrimaDonnaNew.gif";
 import alphababies from "../public/AlphaBabiesS.gif";
 import dkeeper from "../public/Dkeeper.gif";
+import weatherapp from "../public/WeatherApp.gif";
 
 function Projects() {
   return (
@@ -89,7 +90,7 @@ function Projects() {
 
          {/* Forth Card */}
         <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-100">
-          <Image src={airbnbclone} alt="Weather App" className="rounded-xl" />
+          <Image src={weatherapp} alt="Weather App" className="rounded-xl" />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Weather App</h2>
           <p className="py-2">
             This project is a weather app that retrieves and displays the current weather forecast by making an API call based on a user&apos;s input.
