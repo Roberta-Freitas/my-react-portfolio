@@ -26,10 +26,10 @@ function Projects() {
           <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
             <ul className="list-disc list-inside ml-0">
               <li className="text-gray-800 py-1">
-                WebSocket used to implement the chat functionality, enabling real-time communication;
+                WebSocket used to implement the chat functionality, enabling real-time communication.
               </li>
               <li className="text-gray-800 py-1">
-                Integrated the NS.nl API to empower users with real-time access to train schedules, routes, and travel times;
+                Integrated the NS.nl API to empower users with real-time access to train schedules, routes, and travel times.
               </li>
               <li className="text-gray-800 py-1">
                 Mapbox and Geocoder were used to provide users with an interactive mapping feature.
@@ -56,8 +56,8 @@ function Projects() {
           <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
             <ul className="list-disc list-inside ml-0">
               <li className="text-gray-800 py-1">Ruby-Powered Backend: The app&apos;s server-side logic is predominantly built using Ruby. </li>
-              <li className="text-gray-800 py-1">Heroku Deployment: Hosted and deployed using Heroku.</li>
               <li className="text-gray-800 py-1">User-friendly interface built using HTML, SCSS, and JavaScript.</li>
+              <li className="text-gray-800 py-1">Heroku Deployment: Hosted and deployed using Heroku.</li>
             </ul>
             <a href="https://airbnb-roberta-freitas.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 mr-4 inline-block hover:bg-teal-600 transition-colors">
               Demo
@@ -93,15 +93,15 @@ function Projects() {
           <Image src={weatherapp} alt="Weather App" className="rounded-xl" />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Weather App</h2>
           <p className="py-2">
-            This project is a weather app that retrieves and displays the current weather forecast by making an API call based on a user&apos;s input.
+            A weather app that retrieves and displays the current weather forecast by making an API call based on a user&apos;s input. It was built with Node.js and Express.js on the backend.
           </p>
           <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
             <ul className="list-disc list-inside ml-0">
-              <li className="text-gray-800 py-1">Feature 1</li>
-              <li className="text-gray-800 py-1">Feature 2</li>
-              <li className="text-gray-800 py-1">Feature 3</li>
+              <li className="text-gray-800 py-1">The app fetches weather data from OpenWeatherMap API via an HTTP GET request, then extracts and displays key information like temperature, weather description, and icons.</li>
+              <li className="text-gray-800 py-1">It uses HTML, CSS, and the Tailwind CSS framework to create the layout that presents the weather details. </li>
+              <li className="text-gray-800 py-1">It combines backend API integration, user input processing, and responsive design to deliver accurate weather forecasts to users based on their city selections.</li>
             </ul>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 mr-4 inline-block hover:bg-teal-600 transition-colors">
+            <a href="https://weather-forecast-express-3f85034eada2.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 mr-4 inline-block hover:bg-teal-600 transition-colors">
               Demo
             </a>
             <a href="https://github.com/Roberta-Freitas/Weather-Forecast-Express" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
