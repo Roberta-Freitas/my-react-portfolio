@@ -26,7 +26,7 @@ function Projects() {
           <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
             <ul className="list-disc list-inside ml-0">
               <li className="text-gray-800 py-1">
-                WebSocket used to implement the chat functionality, enabling real-time communication.
+                WebSocket used to implement the chat functionality, enabling instantaneous communication.
               </li>
               <li className="text-gray-800 py-1">
                 Integrated the NS.nl API to empower users with real-time access to train schedules, routes, and travel times.
@@ -46,7 +46,7 @@ function Projects() {
       {/* Second Card */}
         <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-100">
           <Image src={airbnbclone} alt="Airbnb Clone Project" className="rounded-xl" />
-          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Airbnb Clone</h2>
+          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Vacay Away</h2>
           <p className="py-2">
            During the Le Wagon Bootcamp, our team of four developers designed and built this dynamic Rails web application,
           </p>
