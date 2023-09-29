@@ -9,7 +9,7 @@ import reactjs from "../public/reactjs.png";
 import bootstrap from "../public/bootstrap.png";
 import jquery from "../public/jquery.png";
 import ruby from "../public/ruby-rails.png";
-import stimulus from "../public/stimulus.png";
+import stimulus from "../public/Stimulus.png";
 import postgresql from "../public/postgresql.png";
 import node from "../public/node.png";
 import rails from "../public/Rails.png";
