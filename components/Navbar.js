@@ -17,7 +17,7 @@ function Navbar({ darkMode, setDarkMode }) {
 
   return (
     <nav className="py-10 mb-12 flex justify-between dark:text-white">
-      <h1 className="font-burtons cursor-pointer" onClick={scrollToTop}>
+      <h1 className="font-burtons cursor-pointer mr-4 md:mr-0" onClick={scrollToTop}>
         developedbyroberta
       </h1>
 
@@ -99,7 +99,7 @@ function Navbar({ darkMode, setDarkMode }) {
           )}
         </div>
         <a
-          className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+          className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-4 md:ml-8"
           href="https://www.canva.com/design/DAFvRumdVu0/6c_zMm19E1jng7eHlDt1aQ/edit?utm_content=DAFvRumdVu0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
         >
           Resume
