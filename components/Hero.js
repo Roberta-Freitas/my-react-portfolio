@@ -37,7 +37,7 @@ function Hero() {
       </div>
 
       <div className="mt-20 flex justify-center">
-        <div className="relative bg-gradient-to-b from-teal-500 rounded-full h-80 w-80 flex justify-center items-center overflow-hidden">
+        <div className="relative bg-gradient-to-b from-teal-500 rounded-full h-80 w-80 sm:h-96 sm:w-96 flex justify-center items-center overflow-hidden">
           <div>
             <Image src={webdev} alt="Roberta Web Developer" />
           </div>
