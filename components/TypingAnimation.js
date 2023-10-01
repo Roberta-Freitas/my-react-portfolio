@@ -33,7 +33,7 @@ function TypingAnimation() {
   }, []);
 
   return (
-    <h3 className="text-3xl sm:text-5xl py-2 dark:text-white">
+    <h3 className="text-2xl sm:text-5xl py-2 dark:text-white">
       I am a <span className="text-teal-500">{displayedText}</span>
       <span className="animate-blink cursor text-teal-500">|</span>
     </h3>
