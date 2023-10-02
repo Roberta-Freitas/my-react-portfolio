@@ -100,7 +100,7 @@ function Navbar({ darkMode, setDarkMode }) {
         </div>
         <a
           className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-4 mr-4 md:ml-4 md:mr-4"
-          href="https://www.canva.com/design/DAFwCUWOIX0/VliaUbLRDKBE3g5-aUmiCQ/view?utm_content=DAFwCUWOIX0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+          href="https://www.canva.com/design/DAFwDq8Xk54/30VD_8gBltYevddXCfe82Q/view?utm_content=DAFwDq8Xk54&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
           target="_blank"
         >
           Resume
