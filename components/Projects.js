@@ -114,7 +114,7 @@ function Projects() {
             <Image src={primadonnapt} alt="Prima Donna Extensões PT" className="rounded-xl mr-4" />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Shopify Store</h2>
           <p className="py-2">
-            This is a Shopify stores I designed for a Portuguese Hair extensions brand.
+            This is a Shopify store I designed for a Portuguese hair extensions brand.
           </p>
           <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
             <ul className="list-disc list-inside ml-0">
@@ -132,7 +132,7 @@ function Projects() {
           <Image src={alphababies} alt="Alpha Babies Store" className="rounded-xl" />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Shopify Store</h2>
           <p className="py-2">
-            This a Shopify stores I designed for a Baby Products store.
+           This is a Shopify store I crafted for a worldwide baby products brand.
           </p>
           <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
             <ul className="list-disc list-inside ml-0">
