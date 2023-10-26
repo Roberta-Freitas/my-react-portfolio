@@ -14,12 +14,19 @@ app.prepare().then(() => {
     server.use(sslify.HTTPS({ trustProtoHeader: true }));
   }
 
+  server.use((req, res, next) => {
+    console.log('Requested URL:', req.url);
+    next();
+  });
+
   server.get('*', (req, res) => {
     return handle(req, res);
   });
 
-  server.listen(process.env.PORT || 3000, (err) => {
+  const port = process.env.PORT || 3000; // Use Heroku's assigned port or 3000 for local development
+
+  server.listen(port, (err) => {
     if (err) throw err;
-    console.log(`> Ready on http://localhost:${process.env.PORT || 3000}`);
+    console.log(`> Ready on http://localhost:${port}`);
   });
 });
