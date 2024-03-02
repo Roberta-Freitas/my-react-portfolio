@@ -16,6 +16,10 @@ import rails from "../public/Rails.png";
 import heroku from "../public/heroku.png";
 import express from "../public/express.png";
 import github from "../public/github.png";
+import shopify from "../public/Shopify.png";
+import typescript from "../public/typescript.png";
+import figma from "../public/figma.png";
+import webflow from "../public/webflow.png";
 
 const Skills = () => {
   return (
@@ -63,6 +67,10 @@ const Skills = () => {
               <p>Express</p>
             </div>
             <div className="logo rounded-xl py-4 shadow-md dark:bg-gray-100 hover:scale-110 duration-500">
+              <Image className='w-20 mx-auto' src={typescript} alt="Typescript" />
+              <p>TypeScript</p>
+            </div>
+            <div className="logo rounded-xl py-4 shadow-md dark:bg-gray-100 hover:scale-110 duration-500">
               <Image className='w-20 mx-auto' src={mongodb} alt="MongoDB" />
               <p>MongoDB</p>
             </div>
@@ -89,6 +97,18 @@ const Skills = () => {
             <div className="logo rounded-xl py-4 shadow-md dark:bg-gray-100 hover:scale-110 duration-500">
               <Image className='w-20 mx-auto' src={github} alt="Github" />
               <p>Github</p>
+            </div>
+            <div className="logo rounded-xl py-4 shadow-md dark:bg-gray-100 hover:scale-110 duration-500">
+              <Image className='w-20 mx-auto' src={figma} alt="Figma" />
+              <p>Figma</p>
+            </div>
+            <div className="logo rounded-xl py-4 shadow-md dark:bg-gray-100 hover:scale-110 duration-500">
+              <Image className='w-20 mx-auto' src={shopify} alt="Shopify" />
+              <p>Shopify</p>
+            </div>
+            <div className="logo rounded-xl py-4 shadow-md dark:bg-gray-100 hover:scale-110 duration-500">
+              <Image className='w-20 mx-auto' src={webflow} alt="Webflow" />
+              <p>Webflow</p>
             </div>
           </div>
         </div>

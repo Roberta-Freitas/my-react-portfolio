@@ -8,22 +8,21 @@ function AboutMe() {
     <div className="shadow-lg p-10 rounded-xl my-10 dark:bg-gray-100">
 
       <p className=" text-md py-2 leading-8">
-        I wasn&apos;t always a web developer.
-        Previously I worked in the Tourism industry as Guest Relations Manager, however in my free time, I pursued my passion for web development and built a few Shopify stores.
+        🚀 Hi there! I&apos;m Roberta, a<span className="text-teal-500"> Freelance Web Developer </span> with a dedication for helping brands shine in the digital world.
       </p>
       <p className=" text-md py-2 leading-8">
-        In January 2023, I decided to dive deeper in the world of web development and joined the very intensive <span className="text-teal-500">  360 hours Le Wagon Bootcamp</span> in Amsterdam.
-        The bootcamp grad me with a strong foundation. I&apos;ve built full-stack web applications from scratch and collaborated on group projects that challenged and expanded my knowledge.
+        💼 With a keen eye for design and a passion for coding, I enjoy assisting my clients bring their digital vision to life,
+        whether it&apos;s through sleek e-commerce platforms on Shopify, a dynamic web application with React and Node.js, or a captivating website.
       </p>
       <p className=" text-md py-2 leading-8">
-        After completing Le Wagon bootcamp, I immediately embarked on another exciting learning journey by enrolling in <span className="text-teal-500"> The App Brewery Complete Web Development Online Bootcamp</span>.
-          My skills in the field were complemented by this additional training.
+        🌐 Leveraging my coding knowledge, I create scalable websites that not only look great but also deliver exceptional performance.
       </p>
       <p className=" text-md py-2 leading-8">
-        With a continuous learning mindset, I embrace challenges and proactively seek opportunities to expand my skill set.
+        💡 If you&apos;re in search of a developer who can elevate your online presence and help you stand out in the digital crowd,
+        I&apos;m here to collaborate.
       </p>
       <p className=" text-md py-2 leading-8">
-        Having lived in various countries, such as Australia, US, Brazil, Portugal and currently The Netherlands, I embrace cultural diversity and have developed a global perspective.
+        🤝 Let&apos;s team up and create something amazing together!
       </p>
     </div>
     </section>

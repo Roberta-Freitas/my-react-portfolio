@@ -1,10 +1,12 @@
 import Image from "next/legacy/image";
 import pambagif from "../public/PambaW.gif";
-import airbnbclone from "../public/AirbnbCloneNew.gif";
 import primadonnapt from "../public/PrimaDonnaNew.gif";
 import alphababies from "../public/AlphaBabiesS.gif";
 import dkeeper from "../public/Dkeeper.gif";
 import weatherapp from "../public/WeatherApp.gif";
+import teamapp from "../public/TeamApp.gif";
+import chatapp from "../public/ChatApp.gif";
+import gymapp from "../public/GymApp.gif";
 
 function Projects() {
   return (
@@ -14,12 +16,102 @@ function Projects() {
         </div>
       {/* Card section starts here */}
       <div>
+
       {/* First Card */}
+        <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
+          <Image src={gymapp} alt="Gym App" className="rounded-xl" />
+          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Gym App Website</h2>
+          <p className="py-2">
+            This is a conceptual Typescript React Gym Application.
+          </p>
+          <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
+            <ul className="list-disc list-inside ml-0">
+              <li className="text-gray-800  py-1">React is used to create interactive interfaces that respond seamlessly to user interactions.</li>
+              <li className="text-gray-800  py-1">TypeScript enhances the codebase, elevating quality, readability, and scalability.</li>
+              <li className="text-gray-800  py-1">Tailwind CSS is responsible for crafting a visually contemporary design, ensuring a responsive user interface.</li>
+            </ul>
+            <a href="https://gym-typescript-13o.pages.dev/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mr-4 inline-block hover:bg-teal-600 transition-colors">
+              Demo
+            </a>
+            <a href="https://github.com/Roberta-Freitas/gym-typescript" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
+              Code
+            </a>
+        </div>
+
+      {/* Second Card */}
+        <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
+          <Image src={primadonnapt} alt="Prima Donna Extensões PT" className="rounded-xl mr-4" />
+          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Shopify Store</h2>
+          <p className="py-2">
+            This is a Shopify store I designed for a Portuguese hair extensions brand.
+          </p>
+          <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
+            <ul className="list-disc list-inside ml-0">
+              <li className="text-gray-800  py-1">Customized Shopify themes to create unique and visually appealing online stores that align with the client&apos;s brand.</li>
+              <li className="text-gray-800  py-1">Integrated third-party apps and tools to extend Shopify&apos;s capabilities, such as payment gateways and marketing automation tools.</li>
+              <li className="text-gray-800 py-1">Created Shopify product catalogs, including product descriptions, images, and pricing information.</li>
+            </ul>
+            <a href="https://primadonna-extensoes.pt/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 mr-4 inline-block hover:bg-teal-600 transition-colors">
+              Demo
+            </a>
+        </div>
+
+      {/* Third Card */}
+         <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
+          <Image src={alphababies} alt="Alpha Babies Store" className="rounded-xl" />
+          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Shopify Store</h2>
+          <p className="py-2">
+           This is a Shopify store I crafted for a worldwide baby products brand.
+          </p>
+          <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
+            <ul className="list-disc list-inside ml-0">
+              <li className="text-gray-800  py-1">Customized Shopify themes to create unique and visually appealing online stores that align with the client&apos;s brand.</li>
+              <li className="text-gray-800  py-1">Integrated third-party apps and tools to extend Shopify&apos;s capabilities, such as payment gateways and marketing automation tools.</li>
+              <li className="text-gray-800 py-1">Created Shopify product catalogs, including product descriptions, images, and pricing information.</li>
+            </ul>
+            <a href="https://alphababiesstore.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
+              Demo
+            </a>
+          </div>
+
+      {/* Forth Card */}
+        <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
+          <Image src={teamapp} alt="Team App" className="rounded-xl" />
+          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Team App Website</h2>
+          <p className="py-2">
+            Complete website design and development for a conceptual team collaboration platform.
+          </p>
+          <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
+            <ul className="list-disc list-inside ml-0">
+              <li className="text-gray-800  py-1">Both the website and the blog were built using Webflow, renowned for its exceptional CMS capabilities for blog hosting.</li>
+            </ul>
+            <a href="https://team-app-2abd85.webflow.io/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
+              Demo
+            </a>
+        </div>
+
+      {/* Fifth Card */}
+        <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
+          <Image src={chatapp} alt="Chat App" className="rounded-xl" />
+          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Chat App Website</h2>
+          <p className="py-2">
+            This is the homepage design and build for a concept project - a chat application.
+          </p>
+          <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
+            <ul className="list-disc list-inside ml-0">
+              <li className="text-gray-800  py-1">I first designed the page in Figma and then developed a responsive website using Webflow.</li>
+            </ul>
+            <a href="https://roberta-freitas-chat-app.webflow.io/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
+              Demo
+            </a>
+        </div>
+
+      {/* Sixth Card */}
         <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-100">
           <Image src={pambagif} alt="Pamba Project" className="rounded-xl" />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Pamba - Your home Away from Home</h2>
           <p className="py-2">
-            As the final project of the Web Development Bootcamp, 3 team mates and I built Pamba,</p>
+            As the final project of Le Wagon Web Development Bootcamp, 3 team mates and I built Pamba,</p>
           <p className="py-2">
             a Rails web-app that helps future Le Wagon students to find accommodation based on previous students reviews.
           </p>
@@ -43,31 +135,7 @@ function Projects() {
             </a>
         </div>
 
-      {/* Second Card */}
-        <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-100">
-          <Image src={airbnbclone} alt="Airbnb Clone Project" className="rounded-xl" />
-          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Vacay Away</h2>
-          <p className="py-2">
-           During the Le Wagon Bootcamp, our team of four developers designed and built this dynamic Rails web application,
-          </p>
-          <p className="py-2">
-            where users can rent accommodations or list their own properties. The platform also allows users to leave a review after their stay.
-          </p>
-          <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
-            <ul className="list-disc list-inside ml-0">
-              <li className="text-gray-800 py-1">Ruby-Powered Backend: The app&apos;s server-side logic is predominantly built using Ruby. </li>
-              <li className="text-gray-800 py-1">User-friendly interface built using HTML, SCSS, and JavaScript.</li>
-              <li className="text-gray-800 py-1">Heroku Deployment: Hosted and deployed using Heroku.</li>
-            </ul>
-            <a href="https://airbnb-roberta-freitas.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 mr-4 inline-block hover:bg-teal-600 transition-colors">
-              Demo
-            </a>
-            <a href="https://github.com/EvoRye/AirBNB-Clone" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
-              Code
-            </a>
-        </div>
-
-        {/* Third Card */}
+      {/* Seventh Card */}
         <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-100">
           <Image src={dkeeper} alt="Dkeeper" className="rounded-xl" />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">DKeeper</h2>
@@ -88,7 +156,7 @@ function Projects() {
             </a>
         </div>
 
-         {/* Forth Card */}
+      {/* Eigth Card */}
         <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-100">
           <Image src={weatherapp} alt="Weather App" className="rounded-xl" />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Weather App</h2>
@@ -107,43 +175,8 @@ function Projects() {
             <a href="https://github.com/Roberta-Freitas/Weather-Forecast-Express" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
               Code
             </a>
-         </div>
+        </div>
 
-         {/* Fifth Card */}
-         <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
-            <Image src={primadonnapt} alt="Prima Donna Extensões PT" className="rounded-xl mr-4" />
-          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Shopify Store</h2>
-          <p className="py-2">
-            This is a Shopify store I designed for a Portuguese hair extensions brand.
-          </p>
-          <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
-            <ul className="list-disc list-inside ml-0">
-              <li className="text-gray-800  py-1">Customized Shopify themes to create unique and visually appealing online stores that align with the client&apos;s brand.</li>
-              <li className="text-gray-800  py-1">Integrated third-party apps and tools to extend Shopify&apos;s capabilities, such as payment gateways and marketing automation tools.</li>
-              <li className="text-gray-800 py-1">Created Shopify product catalogs, including product descriptions, images, and pricing information.</li>
-            </ul>
-            <a href="https://primadonna-extensoes.pt/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 mr-4 inline-block hover:bg-teal-600 transition-colors">
-              Demo
-            </a>
-          </div>
-           {/* Sixth Card */}
-         <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
-          {/* <Image src={alphababies} alt="Prima Donna Extensões PT" className="rounded-xl" /> */}
-          <Image src={alphababies} alt="Alpha Babies Store" className="rounded-xl" />
-          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Shopify Store</h2>
-          <p className="py-2">
-           This is a Shopify store I crafted for a worldwide baby products brand.
-          </p>
-          <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
-            <ul className="list-disc list-inside ml-0">
-              <li className="text-gray-800  py-1">Customized Shopify themes to create unique and visually appealing online stores that align with the client&apos;s brand.</li>
-              <li className="text-gray-800  py-1">Integrated third-party apps and tools to extend Shopify&apos;s capabilities, such as payment gateways and marketing automation tools.</li>
-              <li className="text-gray-800 py-1">Created Shopify product catalogs, including product descriptions, images, and pricing information.</li>
-            </ul>
-            <a href="https://alphababiesstore.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
-              Demo
-            </a>
-          </div>
       </div>
       </section>
 
