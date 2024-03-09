@@ -31,7 +31,7 @@ function Hero() {
         >
           <AiOutlineGithub />
         </a>
-        <a href="mailto:robertaefreitas@gmail.com">
+        <a href="mailto:info@robertafreitas-webdev.com">
           <AiTwotoneMail />
         </a>
       </div>
