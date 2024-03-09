@@ -15,7 +15,7 @@ function AboutMe() {
         whether it&apos;s through sleek e-commerce platforms on Shopify, a dynamic web application with React and Node.js, or a captivating website.
       </p>
       <p className=" text-md py-2 leading-8">
-        🌐 Leveraging my coding knowledge, I create scalable websites that not only look great but also deliver exceptional performance.
+        🌐 Leveraging my coding knowledge, I create scalable websites that not only look good but also deliver exceptional performance.
       </p>
       <p className=" text-md py-2 leading-8">
         💡 If you&apos;re in search of a developer who can elevate your online presence and help you stand out in the digital crowd,

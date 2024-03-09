@@ -1,7 +1,7 @@
 import Image from "next/legacy/image";
 import pambagif from "../public/PambaW.gif";
 import primadonnapt from "../public/PrimaDonnaNew.gif";
-import alphababies from "../public/AlphaBabiesS.gif";
+import alphababies from "../public/Alpha-Babies.gif";
 import dkeeper from "../public/Dkeeper.gif";
 import weatherapp from "../public/WeatherApp.gif";
 import teamapp from "../public/TeamApp.gif";
@@ -49,7 +49,7 @@ function Projects() {
             <ul className="list-disc list-inside ml-0">
               <li className="text-gray-800  py-1">Customized Shopify themes to create unique and visually appealing online stores that align with the client&apos;s brand.</li>
               <li className="text-gray-800  py-1">Integrated third-party apps and tools to extend Shopify&apos;s capabilities, such as payment gateways and marketing automation tools.</li>
-              <li className="text-gray-800 py-1">Created Shopify product catalogs, including product descriptions, images, and pricing information.</li>
+              <li className="text-gray-800 py-1">Utilized the Translate and Adapt app to translate the store from Portuguese to English, expanding its market reach to a broader, international audience.</li>
             </ul>
             <a href="https://primadonna-extensoes.pt/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 mr-4 inline-block hover:bg-teal-600 transition-colors">
               Demo
@@ -65,9 +65,9 @@ function Projects() {
           </p>
           <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
             <ul className="list-disc list-inside ml-0">
-              <li className="text-gray-800  py-1">Customized Shopify themes to create unique and visually appealing online stores that align with the client&apos;s brand.</li>
-              <li className="text-gray-800  py-1">Integrated third-party apps and tools to extend Shopify&apos;s capabilities, such as payment gateways and marketing automation tools.</li>
-              <li className="text-gray-800 py-1">Created Shopify product catalogs, including product descriptions, images, and pricing information.</li>
+              <li className="text-gray-800  py-1">Redesign and Update: Successfully transitioned the store from an outdated theme to a modern, more functional one, ensuring a seamless upgrade without loss of any custom-coded features.</li>
+              <li className="text-gray-800  py-1">Scrolling Text Banner: Developed a scrolling text banner with an intuitive pause-on-hover feature, without the need for additional apps and enhancing the storefront&apos;s visual appeal.</li>
+              <li className="text-gray-800 py-1">Theme Customization: Executed extensive customization of the new theme, tailoring it to meet the store&apos;s specific needs while maintaining its original functionality and aesthetics.</li>
             </ul>
             <a href="https://alphababiesstore.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
               Demo
