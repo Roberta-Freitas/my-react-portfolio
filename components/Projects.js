@@ -7,7 +7,7 @@ import weatherapp from "../public/WeatherApp.gif";
 import teamapp from "../public/TeamApp.gif";
 import chatapp from "../public/ChatApp.gif";
 import gymapp from "../public/GymApp.gif";
-import habeautystudio from "../public/HABeautyStudio.gif";
+import beautystudio from "../public/BeautyStudio.gif";
 
 function Projects() {
   return (
@@ -42,7 +42,7 @@ function Projects() {
 
       {/* Second Card */}
       <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
-          <Image src={habeautystudio} alt="HA Beauty Studio" className="rounded-xl" unoptimized />
+          <Image src={beautystudio} alt="HA Beauty Studio" className="rounded-xl" unoptimized />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">HA Beauty Studio - Webflow Website</h2>
           <p className="py-2">
             Website designed in Figma and developed using Webflow, showcasing the services and ethos of HA Beauty Studio located in Portugal.
