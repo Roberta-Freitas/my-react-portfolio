@@ -7,6 +7,7 @@ import weatherapp from "../public/WeatherApp.gif";
 import teamapp from "../public/TeamApp.gif";
 import chatapp from "../public/ChatApp.gif";
 import gymapp from "../public/GymApp.gif";
+import habeautystudio from "../public/HABeautyStudio.gif";
 
 function Projects() {
   return (
@@ -17,9 +18,72 @@ function Projects() {
       {/* Card section starts here */}
       <div>
 
-      {/* First Card */}
+        {/* First Card */}
         <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
-          <Image src={gymapp} alt="Gym App" className="rounded-xl" />
+          <Image src={teamapp} alt="Team App" className="rounded-xl" unoptimized />
+          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Team App - Webflow Website</h2>
+          <p className="py-2">
+            Complete website design in Figma and development using Webflow for a conceptual team collaboration platform.
+          </p>
+          <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
+            <ul className="list-disc list-inside ml-0">
+              <li className="text-gray-800  py-1">Implemented Webflow&apos;s CMS for managing the dinamic content of the blog posts, ensuring easy updates and scalability.</li>
+            </ul>
+            <ul className="list-disc list-inside ml-0">
+              <li className="text-gray-800  py-1">Responsive Design providing a seamless user experience across all platforms.</li>
+            </ul>
+            <ul className="list-disc list-inside ml-0">
+              <li className="text-gray-800  py-1">Hover effects, animations, and transitions to enhance user engagement and create a dynamic browsing experience.</li>
+            </ul>
+            <a href="https://team-app-2abd85.webflow.io/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
+              Demo
+            </a>
+        </div>
+
+      {/* Second Card */}
+      <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
+          <Image src={habeautystudio} alt="HA Beauty Studio" className="rounded-xl" unoptimized />
+          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">HA Beauty Studio - Webflow Website</h2>
+          <p className="py-2">
+            Website designed in Figma and developed using Webflow, showcasing the services and ethos of HA Beauty Studio located in Portugal.
+          </p>
+          <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
+            <ul className="list-disc list-inside ml-0">
+              <li className="text-gray-800  py-1">Responsive Design ensuring the website is fully optimized for desktops, tablets, and mobile devices.</li>
+            </ul>
+            <ul className="list-disc list-inside ml-0">
+              <li className="text-gray-800  py-1">SEO Optimization, including proper use of meta tags, alt text for images to improve search engine visibility and drive organic traffic to the site.</li>
+            </ul>
+            <ul className="list-disc list-inside ml-0">
+              <li className="text-gray-800  py-1">Google Maps API Integration to display an interactive map on the website, allowing users to easily locate the studio and navigate to the premises.</li>
+            </ul>
+            <a href="https://www.habeautystudio.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
+              Demo
+            </a>
+        </div>
+
+      {/* Third Card */}
+        <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
+          <Image src={chatapp} alt="Chat App" className="rounded-xl" unoptimized />
+          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Chat App - Webflow Website</h2>
+          <p className="py-2">
+            This is the homepage design and build for a concept project - a chat application.
+          </p>
+          <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
+            <ul className="list-disc list-inside ml-0">
+              <li className="text-gray-800  py-1">I first designed the page in Figma and then developed a responsive website using Webflow.</li>
+            </ul>
+            <ul className="list-disc list-inside ml-0">
+              <li className="text-gray-800  py-1">Utilized Webflow&apos;s responsive design tools to create a fluid layout that adapts to different screen sizes.</li>
+            </ul>
+            <a href="https://roberta-freitas-chat-app.webflow.io/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
+              Demo
+            </a>
+        </div>
+
+      {/* Fourth Card */}
+        <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
+          <Image src={gymapp} alt="Gym App" className="rounded-xl" unoptimized />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Gym App Website</h2>
           <p className="py-2">
             This is a conceptual Typescript React Gym Application.
@@ -38,9 +102,9 @@ function Projects() {
             </a>
         </div>
 
-      {/* Second Card */}
+      {/* Fifth Card */}
         <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
-          <Image src={primadonnapt} alt="Prima Donna Extensões PT" className="rounded-xl mr-4" />
+          <Image src={primadonnapt} alt="Prima Donna Extensões PT" className="rounded-xl mr-4" unoptimized />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Shopify Store</h2>
           <p className="py-2">
             This is a Shopify store I designed for a Portuguese hair extensions brand.
@@ -56,59 +120,27 @@ function Projects() {
             </a>
         </div>
 
-      {/* Third Card */}
+      {/* Sixth Card */}
          <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
-          <Image src={alphababies} alt="Alpha Babies Store" className="rounded-xl" />
+          <Image src={alphababies} alt="Alpha Babies Store" className="rounded-xl" unoptimized />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Shopify Store</h2>
           <p className="py-2">
            This is a Shopify store I crafted for a worldwide baby products brand.
           </p>
           <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
             <ul className="list-disc list-inside ml-0">
-              <li className="text-gray-800  py-1">Redesign and Update: Successfully transitioned the store from an outdated theme to a modern, more functional one, ensuring a seamless upgrade without loss of any custom-coded features.</li>
-              <li className="text-gray-800  py-1">Scrolling Text Banner: Developed a scrolling text banner with an intuitive pause-on-hover feature, without the need for additional apps and enhancing the storefront&apos;s visual appeal.</li>
-              <li className="text-gray-800 py-1">Theme Customization: Executed extensive customization of the new theme, tailoring it to meet the store&apos;s specific needs while maintaining its original functionality and aesthetics.</li>
+              <li className="text-gray-800  py-1">Successfully transitioned the store from an outdated theme to a modern, more functional one, ensuring a seamless upgrade without loss of any custom-coded features.</li>
+              <li className="text-gray-800  py-1">Developed a scrolling text banner with an intuitive pause-on-hover feature, without the need for additional apps and enhancing the storefront&apos;s visual appeal.</li>
+              <li className="text-gray-800 py-1">Executed extensive customization of the new theme, tailoring it to meet the store&apos;s specific needs while maintaining its original functionality and aesthetics.</li>
             </ul>
             <a href="https://alphababiesstore.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
               Demo
             </a>
           </div>
 
-      {/* Forth Card */}
-        <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
-          <Image src={teamapp} alt="Team App" className="rounded-xl" />
-          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Team App Website</h2>
-          <p className="py-2">
-            Complete website design and development for a conceptual team collaboration platform.
-          </p>
-          <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
-            <ul className="list-disc list-inside ml-0">
-              <li className="text-gray-800  py-1">Both the website and the blog were built using Webflow, renowned for its exceptional CMS capabilities for blog hosting.</li>
-            </ul>
-            <a href="https://team-app-2abd85.webflow.io/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
-              Demo
-            </a>
-        </div>
-
-      {/* Fifth Card */}
-        <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
-          <Image src={chatapp} alt="Chat App" className="rounded-xl" />
-          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Chat App Website</h2>
-          <p className="py-2">
-            This is the homepage design and build for a concept project - a chat application.
-          </p>
-          <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
-            <ul className="list-disc list-inside ml-0">
-              <li className="text-gray-800  py-1">I first designed the page in Figma and then developed a responsive website using Webflow.</li>
-            </ul>
-            <a href="https://roberta-freitas-chat-app.webflow.io/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
-              Demo
-            </a>
-        </div>
-
-      {/* Sixth Card */}
+      {/* Seventh Card */}
         <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-100">
-          <Image src={pambagif} alt="Pamba Project" className="rounded-xl" />
+          <Image src={pambagif} alt="Pamba Project" className="rounded-xl" unoptimized />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Pamba - Your home Away from Home</h2>
           <p className="py-2">
             As the final project of Le Wagon Web Development Bootcamp, 3 team mates and I built Pamba,</p>
@@ -135,9 +167,9 @@ function Projects() {
             </a>
         </div>
 
-      {/* Seventh Card */}
+      {/* Eighth Card */}
         <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-100">
-          <Image src={dkeeper} alt="Dkeeper" className="rounded-xl" />
+          <Image src={dkeeper} alt="Dkeeper" className="rounded-xl" unoptimized />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">DKeeper</h2>
           <p className="py-2">
            A blockchain web3 application built using DFINITY&apos;s Internet Computer, Motoko, and React. With Dkeeper, you can manage your notes through CRUD operations.
@@ -156,9 +188,9 @@ function Projects() {
             </a>
         </div>
 
-      {/* Eigth Card */}
+      {/* Nineth Card */}
         <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-100">
-          <Image src={weatherapp} alt="Weather App" className="rounded-xl" />
+          <Image src={weatherapp} alt="Weather App" className="rounded-xl" unoptimized />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Weather App</h2>
           <p className="py-2">
             A weather app that retrieves and displays the current weather forecast by making an API call based on a user&apos;s input. It was built with Node.js and Express.js on the backend.

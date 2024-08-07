@@ -12,7 +12,7 @@ function AboutMe() {
       </p>
       <p className=" text-md py-2 leading-8">
         💼 With a keen eye for design and a passion for coding, I enjoy assisting my clients bring their digital vision to life,
-        whether it&apos;s through sleek e-commerce platforms on Shopify, a dynamic web application with React and Node.js, or a captivating website.
+        whether it&apos;s through sleek e-commerce platforms on Shopify, a dynamic web application with React and Node.js, or a captivating website on Webflow.
       </p>
       <p className=" text-md py-2 leading-8">
         🌐 Leveraging my coding knowledge, I create scalable websites that not only look good but also deliver exceptional performance.
