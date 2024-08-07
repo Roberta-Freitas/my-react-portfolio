@@ -10,34 +10,23 @@
     "clear-webpack-cache": "rimraf .next"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.4.2",
-    "@fortawesome/free-brands-svg-icons": "^6.4.2",
-    "@fortawesome/free-solid-svg-icons": "^6.4.2",
-    "@types/node": "20.6.3",
-    "@types/react": "18.2.22",
-    "@types/react-dom": "18.2.7",
-    "dotenv": "^16.3.1",
     "eslint": "8.49.0",
     "eslint-config-next": "13.5.2",
-    "express": "^4.18.2",
-    "express-sslify": "^1.2.0",
-    "framer-motion": "^10.16.4",
-    "mini-css-extract-plugin": "^2.7.6",
     "next": "^14.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-fast-marquee": "^1.6.1",
     "react-icons": "^4.11.0",
-    "react-scroll": "^1.8.9",
-    "sharp": "^0.32.6",
-    "typescript": "5.2.2"
+    "react-scroll": "^1.8.9"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.16",
+    "@types/node": "^22.1.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
     "file-loader": "^6.2.0",
-    "postcss": "^8.4.30",
+    "postcss": "^8.4.41",
     "postcss-nesting": "^12.0.1",
-    "rimraf": "^5.0.1",
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.5.4"
   }
 }
