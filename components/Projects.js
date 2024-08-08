@@ -1,12 +1,12 @@
 import Image from "next/legacy/image";
-import pambagif from "../public/PambaW.gif";
-import primadonnapt from "../public/PrimaDonnaNew.gif";
-import alphababies from "../public/Alpha-Babies.gif";
+import pambagif from "../public/Pamba.gif";
+import primadonnapt from "../public/PrimaDonna-Shopify.gif";
+import alphababies from "../public/Alpha-Babies-Shopify.gif";
 import dkeeper from "../public/Dkeeper.gif";
 import weatherapp from "../public/WeatherApp.gif";
-import teamapp from "../public/TeamApp.gif";
-import chatapp from "../public/ChatApp.gif";
-import gymapp from "../public/GymApp.gif";
+import teamapp from "../public/TeamApp-Webflow.gif";
+import chatapp from "../public/ChatApp-Webflow.gif";
+import gymapp from "../public/GymApp-TS.gif";
 import beautystudio from "../public/BeautyStudio.gif";
 
 function Projects() {
