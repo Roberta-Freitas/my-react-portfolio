@@ -18,7 +18,43 @@ function Projects() {
       {/* Card section starts here */}
       <div>
 
-        {/* First Card */}
+      {/* First Card */}
+        <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
+          <Image src={alphababies} alt="Alpha Babies Store" className="rounded-xl" unoptimized />
+          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Shopify Store</h2>
+          <p className="py-2">
+           This is a Shopify store I crafted for a worldwide baby products brand.
+          </p>
+          <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
+            <ul className="list-disc list-inside ml-0">
+              <li className="text-gray-800  py-1">Successfully transitioned the store from an outdated theme to a modern, more functional one, ensuring a seamless upgrade without loss of any custom-coded features.</li>
+              <li className="text-gray-800  py-1">Developed a scrolling text banner with an intuitive pause-on-hover feature, without the need for additional apps and enhancing the storefront&apos;s visual appeal.</li>
+              <li className="text-gray-800 py-1">Executed extensive customization of the new theme, tailoring it to meet the store&apos;s specific needs while maintaining its original functionality and aesthetics.</li>
+            </ul>
+            <a href="https://alphababiesstore.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
+              Demo
+            </a>
+        </div>
+
+      {/* Second Card */}
+        <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
+          <Image src={primadonnapt} alt="Prima Donna Extensões PT" className="rounded-xl mr-4" unoptimized />
+          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Shopify Store</h2>
+          <p className="py-2">
+            This is a Shopify store I designed for a Portuguese hair extensions brand.
+          </p>
+          <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
+            <ul className="list-disc list-inside ml-0">
+              <li className="text-gray-800  py-1">Customized Shopify themes to create unique and visually appealing online stores that align with the client&apos;s brand.</li>
+              <li className="text-gray-800  py-1">Integrated third-party apps and tools to extend Shopify&apos;s capabilities, such as payment gateways and marketing automation tools.</li>
+              <li className="text-gray-800 py-1">Utilized the Translate and Adapt app to translate the store from Portuguese to English, expanding its market reach to a broader, international audience.</li>
+            </ul>
+            <a href="https://primadonna-extensoes.pt/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 mr-4 inline-block hover:bg-teal-600 transition-colors">
+              Demo
+            </a>
+        </div>
+
+        {/* Third Card */}
         <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
           <Image src={teamapp} alt="Team App" className="rounded-xl" unoptimized />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Team App - Webflow Website</h2>
@@ -40,8 +76,8 @@ function Projects() {
             </a>
         </div>
 
-      {/* Second Card */}
-      <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
+        {/* Fourth Card */}
+        <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
           <Image src={beautystudio} alt="HA Beauty Studio" className="rounded-xl" unoptimized />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">HA Beauty Studio - Webflow Website</h2>
           <p className="py-2">
@@ -57,12 +93,12 @@ function Projects() {
             <ul className="list-disc list-inside ml-0">
               <li className="text-gray-800  py-1">Google Maps API Integration to display an interactive map on the website, allowing users to easily locate the studio and navigate to the premises.</li>
             </ul>
-            <a href="https://www.habeautystudio.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
+            <a href="https://beauty-studio-461381.webflow.io/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
               Demo
             </a>
         </div>
 
-      {/* Third Card */}
+      {/* Fifth Card */}
         <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
           <Image src={chatapp} alt="Chat App" className="rounded-xl" unoptimized />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Chat App - Webflow Website</h2>
@@ -81,7 +117,7 @@ function Projects() {
             </a>
         </div>
 
-      {/* Fourth Card */}
+      {/* Sixth Card */}
         <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
           <Image src={gymapp} alt="Gym App" className="rounded-xl" unoptimized />
           <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Gym App Website</h2>
@@ -101,42 +137,6 @@ function Projects() {
               Code
             </a>
         </div>
-
-      {/* Fifth Card */}
-        <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
-          <Image src={primadonnapt} alt="Prima Donna Extensões PT" className="rounded-xl mr-4" unoptimized />
-          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Shopify Store</h2>
-          <p className="py-2">
-            This is a Shopify store I designed for a Portuguese hair extensions brand.
-          </p>
-          <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
-            <ul className="list-disc list-inside ml-0">
-              <li className="text-gray-800  py-1">Customized Shopify themes to create unique and visually appealing online stores that align with the client&apos;s brand.</li>
-              <li className="text-gray-800  py-1">Integrated third-party apps and tools to extend Shopify&apos;s capabilities, such as payment gateways and marketing automation tools.</li>
-              <li className="text-gray-800 py-1">Utilized the Translate and Adapt app to translate the store from Portuguese to English, expanding its market reach to a broader, international audience.</li>
-            </ul>
-            <a href="https://primadonna-extensoes.pt/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 mr-4 inline-block hover:bg-teal-600 transition-colors">
-              Demo
-            </a>
-        </div>
-
-      {/* Sixth Card */}
-         <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-100">
-          <Image src={alphababies} alt="Alpha Babies Store" className="rounded-xl" unoptimized />
-          <h2 className=" text-lg font-medium pt-8 pb-2  text-teal-600">Shopify Store</h2>
-          <p className="py-2">
-           This is a Shopify store I crafted for a worldwide baby products brand.
-          </p>
-          <h3 className="py-4 text-teal-600 text-lg">Main features:</h3>
-            <ul className="list-disc list-inside ml-0">
-              <li className="text-gray-800  py-1">Successfully transitioned the store from an outdated theme to a modern, more functional one, ensuring a seamless upgrade without loss of any custom-coded features.</li>
-              <li className="text-gray-800  py-1">Developed a scrolling text banner with an intuitive pause-on-hover feature, without the need for additional apps and enhancing the storefront&apos;s visual appeal.</li>
-              <li className="text-gray-800 py-1">Executed extensive customization of the new theme, tailoring it to meet the store&apos;s specific needs while maintaining its original functionality and aesthetics.</li>
-            </ul>
-            <a href="https://alphababiesstore.com/" target="_blank" rel="noopener noreferrer" className="bg-teal-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-teal-600 transition-colors">
-              Demo
-            </a>
-          </div>
 
       {/* Seventh Card */}
         <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-100">
